@@ -63,7 +63,8 @@ def get_lyric(url):
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, InlineQueryResultPhoto
 import json
-bot = telebot.TeleBot('6425725714:AAEK-wSNfACLFCYcAt-EASxJ5EYoV61aHpI')
+# 請自行填入 API Token
+bot = telebot.TeleBot('填入你的Bot API Tokem')
 
 @bot.message_handler(commands=['help', 'start'])
 def send_wel(message):
