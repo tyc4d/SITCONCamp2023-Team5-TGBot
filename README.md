@@ -5,6 +5,10 @@
 ```python
 pip install -r requirements.txt 
 ```
+## 執行
+```
+python TMB.py
+```
 ## Spleeter 環境設定備用方案
 ```
 conda install -c conda-forge ffmpeg libsndfile
