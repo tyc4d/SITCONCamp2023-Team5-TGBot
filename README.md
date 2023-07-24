@@ -5,6 +5,12 @@
 ```python
 pip install -r requirements.txt 
 ```
+## API Token 設定
+- TMB.py Line 66
+請找 @BotFather 拿取 Bot Token 後，輸入到這裡歐
+```python
+bot = telebot.TeleBot('填入你的Bot API Tokem')
+```
 ## 執行
 ```
 python TMB.py
