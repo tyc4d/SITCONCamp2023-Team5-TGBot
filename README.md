@@ -3,7 +3,7 @@
 ## 安裝套件方法 Linux
 
 ```python
-pip install -r requirement.txt
+pip install -r requirements.txt 
 ```
 ## Spleeter 環境設定備用方案
 ```
